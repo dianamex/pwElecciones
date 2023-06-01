@@ -1,0 +1,106 @@
+<!DOCTYPE html>     
+<head>
+    <meta charset="utf-8" />
+    <title>TicoElectoral</title>
+    <meta name="description" content="Resultados encuestas elecciones de Costa Rica 2022" />
+    <meta name="keywords" content="CostaRica, Elecciones, Encuestas, Resultados, Presidente" />
+    <meta name="author" content="Diana Rivera Segura" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    
+</head>
+<body>
+
+    <div class="cuerpo">
+
+        <header id="encabezado">
+
+            <h1 style="color: white;">Elecciones De Costa Rica 2022</h1>
+            <br>
+            <span style="color: white;">... por una sociedad más informada </span>
+
+            <nav id="menu">
+
+                <div id="bar-menu">
+                    <a class="menu-item" href="index.html">Home</a>
+                    <a class="menu-item" href="index.html#candidatos-info">Candidatos</a>
+                    <a class="menu-item" href="resultado.html">Resultados</a> <!--LINK PARA EL HTML DE ENCUESTAS-->
+                    <a class="menu-item" href="#lista-encuestas">Links</a>
+                </div>
+    
+            </nav>
+
+        </header>
+
+        <main id="principal" class="principal-page">
+
+
+            <table id="resultados-info">
+                <h2>Resultados</h2>
+
+                <tbody>
+                    <tr>
+                        <td class="titulo"><strong>Partido</strong></td>
+                        <td class="titulo"><strong>Candidato</strong></td>
+                        <td class="titulo"><a href="https://www.ulatina.ac.cr/area-de-investigacion/grupos-de-investigacion/centro-medicion-de-opinion/intencion-voto-2022">
+                            <strong>Encuesta 1</strong></a></td>
+                        <td class="titulo"><a href="https://ciep.ucr.ac.cr/wp-content/uploads/2022/05/Encuesta-Postelectoral-2022.html">
+                            <strong>Encuesta 2</strong></a></td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/bandera-psc.png" alt=""></td>
+                        <td>Rodrigo Chavez Robles</td>
+                        <td>11.4%</td>
+                        <td>56.5%</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/bandera-liberacion.png" alt=""></td>
+                        <td>José Maria Figueres Castro</td>
+                        <td>20.2%</td>
+                        <td>40.8%</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/andera-nueva-republica.png" alt=""></td>
+                        <td>Fabricio Alvarado Muñoz</td>
+                        <td>10.8%</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/bandera-liberal-prograsista.png" alt=""></td>
+                        <td>Eliécer Feinzaig Mintz</td>
+                        <td>3.3%</td>
+                        <td>-</td>
+                    </tr>
+                    
+                </tbody>
+
+            </table>
+
+            <section id="lista-encuestas">
+    
+                <h5>Puede encotrar mayor información sobre los resultados en los siguientes enlaces</h5>
+                <li><a href="https://www.ulatina.ac.cr/area-de-investigacion/grupos-de-investigacion/centro-medicion-de-opinion/intencion-voto-2022" target="_blank">
+                    Universidad Latina De Costa Rica - Intención de voto</a></li>
+
+                <li><a href="https://ciep.ucr.ac.cr/wp-content/uploads/2022/05/Encuesta-Postelectoral-2022.html">INFORME DE RESULTADOS DE LA ENCUESTA CIEP-UCR</a></li>
+
+            </section>
+
+            <h3 id="inicio-link"><a href="index.html">Ir a la página principal</a></h3>
+
+        </main>
+
+    </div>
+
+    <footer id="footer">
+
+        <credit>&copy; Derechos de Diana Rivera S</credit>
+        <div id="date">26 Mayo 2023</div>
+        <script>
+            document.getElementById("date").innerHTML = new Date().toDateString()
+        </script>
+
+    </footer>
+
+</body>
+</html>

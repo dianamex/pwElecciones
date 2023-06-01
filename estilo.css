@@ -1,0 +1,165 @@
+@media (max-width:1186px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+    .principal-page{
+        min-width: 750px;
+    }
+
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url("img/fondo-principal.jpg");
+    background-size: cover;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    min-height: 110px;
+    background-color: rgb(10, 111, 226);
+    align-items: center;
+    padding: 10px;
+}
+header h1{
+    padding-left: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h2{
+    text-align: center; 
+    color: black;
+    padding-right: 40px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+    background-color: rgb(10, 111, 226);
+
+}
+nav a:hover{
+    color: white;
+    background-color: rgb(10, 111, 226);
+}
+.cuerpo{
+    margin: 10%;
+    position: relative;
+    margin-top: 20px;
+    border: initial;
+    overflow: overlay;
+}
+.principal-page{
+    background-color:rgb(236, 236, 236);
+    margin: 10px 10px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+#candidatos-info{
+    display: grid;
+    place-content: center;
+    margin-bottom: 30px;
+}
+#resultados-info{
+    display: grid;
+    place-content: center;
+    margin-bottom: 30px; 
+}
+#resultados-info tbody{ 
+    background-color: rgb(108, 177, 255);
+    border: 3px solid navy;
+}
+.titulo td{
+    font-weight: 800;
+}
+table img{
+    width: 200px;
+    height: 200px;
+}
+table a{
+    display: flexbox;
+}
+table{
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+th{
+    padding: 20px 15px;
+    font-weight: 700;
+}
+td {
+    padding: 15px;
+    border: solid 3px rgb(10, 111, 226);
+    text-align: center;
+}
+#resultados-info img{
+    width: 100px;
+    height: 80px;
+}
+ol{
+    list-style: circle;
+    align-items: center;
+    text-align: center;
+}
+.contenido{
+    display: flex;
+    margin: 20px;
+}
+#lista-candidatos{
+    width: 50%;
+    border-right: 3px solid rgb(10, 111, 226);
+    align-items: center;
+    margin-top: 10px;
+    padding-top: 30px;
+}
+#lista-links{
+    width: 50%;
+    background-color: rgb(102, 174, 255);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 10px;
+}
+#lista-links li{
+    text-align: center;
+}
+#lista-links h3{
+    text-align: center;
+}
+#lista-encuestas{
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px 10px;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    display: flex;
+    margin-left: 80px;
+}
+#lista-encuestas li{
+    text-align: center;
+    margin: 10px;
+}
+#inicio-link{
+    text-align: right;
+    margin: 10px 10px;
+    padding: 20px;
+}
+footer{
+    background-color: rgb(102, 174, 255);
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}

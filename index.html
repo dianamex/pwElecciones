@@ -1,0 +1,132 @@
+<!DOCTYPE html>     
+<head>
+    <meta charset="utf-8" />
+    <title>TicoElectoral</title>
+    <meta name="description" content="Resumen informativo de las elecciones de Costa Rica 2022" />
+    <meta name="keywords" content="CostaRica, Elecciones, Encuestas, Ganador, REST" />
+    <meta name="author" content="Diana Rivera Segura" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    
+</head>
+<body>
+
+    <div class="cuerpo">
+
+        <header id="encabezado">
+
+            <h1 style="color: white;">Elecciones De Costa Rica 2022</h1>
+            <br>
+            <span style="color: white;">... por una sociedad más informada </span>
+
+            <nav id="menu">
+
+                <div id="bar-menu">
+                    <a class="menu-item" href="index.html">Home</a>
+                    <a class="menu-item" href="#candidatos-info">Candidatos</a>
+                    <a class="menu-item" href="resultado.html">Resultados</a> <!--LINK PARA EL HTML DE ENCUESTAS-->
+                    <a class="menu-item" href="#lista-candidatos">Links</a>
+                </div>
+    
+            </nav>
+
+        </header>
+
+        <main id="principal" class="principal-page">
+
+            <table id="candidatos-info">
+
+                <h2>Candidatos</h2>
+                <tbody>
+                    <tr>
+                        <td><a href="liberacion.html"><img src="img/José_María_Figueres.jpg"></a></td>
+                        <td><a href="progresosocial.html"><img src="img/rodrigo-chavez.jpg"></a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="liberal.html"><img src="img/Eli-Feinzaig.jpg"></a></td>
+                        <td><a href="nueva-rep.html"><img src="img/Fabricio_Alvarado.png"></a></td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+            <table id="resultados-info">
+                <h2>Resultados</h2>
+
+                <tbody>
+                    <tr>
+                        <td class="titulo"><strong>Partido</strong></td>
+                        <td class="titulo"><strong>Candidato</strong></td>
+                        <td class="titulo"><a href="https://www.ulatina.ac.cr/area-de-investigacion/grupos-de-investigacion/centro-medicion-de-opinion/intencion-voto-2022">
+                            <strong>Encuesta 1</strong></a></td>
+                        <td class="titulo"><a href="https://ciep.ucr.ac.cr/wp-content/uploads/2022/05/Encuesta-Postelectoral-2022.html">
+                            <strong>Encuesta 2</strong></a></td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/bandera-psc.png" alt=""></td>
+                        <td>Rodrigo Chavez Robles</td>
+                        <td>11.4%</td>
+                        <td>56.5%</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/bandera-liberacion.png" alt=""></td>
+                        <td>José Maria Figueres Castro</td>
+                        <td>20.2%</td>
+                        <td>40.8%</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/andera-nueva-republica.png" alt=""></td>
+                        <td>Fabricio Alvarado Muñoz</td>
+                        <td>10.8%</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/bandera-liberal-prograsista.png" alt=""></td>
+                        <td>Eliécer Feinzaig</td>
+                        <td>3.3%</td>
+                        <td>-</td>
+                    </tr>
+                    
+                </tbody>
+
+            </table>
+
+            <section class="contenido">
+                <section id="lista-candidatos">
+                    <h2>Conozca mejor a sus candidatos</h2>
+                    <ol>
+                        <li><a href="liberacion.html"></a>José María Figuerez Castro</li>
+                        <li><a href="progresosocial.html"></a>Rodrigo Chavez Robles</li>
+                        <li><a href="nueva-rep.html"></a>Fabricio Alvarado</li>
+                        <li><a href="liberal.html"></a>Eliécer Feinzaig</li>
+                    </ol>
+                </section>
+    
+                <aside id="lista-links">
+    
+                    <h3>Informesé sobre los lugares de votación</h3>
+                    <li><a href="https://www.tse.go.cr/dondevotar/" target="_blank">Tribunal Supremo de Elecciones</a></li>
+                    <br>
+                    <br>
+                    <h3>Informesé sobre los resultados de las encuenstas con mayor detalle</h3>
+                    <li><a href="#">Encuestas Electorales</a></li>
+    
+                </aside>
+            </section>
+
+        </main>
+
+    </div>
+
+    <footer id="footer">
+
+        <credit>&copy; Derechos de Diana Rivera S</credit>
+        <div id="date">26 Mayo 2023</div>
+        <script>
+            document.getElementById("date").innerHTML = new Date().toDateString()
+        </script>
+
+    </footer>
+
+</body>
+</html>

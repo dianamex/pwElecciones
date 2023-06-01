@@ -1,0 +1,133 @@
+@media (max-width:1186px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url("img/fondo-principal.jpg");
+    background-size: cover;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    min-height: 110px;
+    background-color: rgb(10, 111, 226);
+    align-items: center;
+    padding: 10px;
+}
+header h1{
+    padding-left: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h2{
+    text-align: center; 
+    color: black;
+    padding-right: 40px;
+    align-items: center;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+    background-color: rgb(10, 111, 226);
+
+}
+nav a:hover{
+    color: white;
+    background-color: rgb(10, 111, 226);
+}
+.cuerpo{
+    margin: 10%;
+    position: relative;
+    margin-top: 20px;
+    border: initial;
+    overflow: overlay;
+
+}
+.principal-page{
+    background-color:rgb(236, 236, 236);
+    margin: 10px 10px;
+    padding: 20px;
+}
+p {
+    text-align: justify;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+.contenido{
+    display: flex;
+    margin: 20px;
+}
+.contenido img{
+    width: 400px;
+    height: 400px;
+}
+#descripcion h2{
+    padding-left: 80px;
+}
+#videoPartido{
+    text-align: center;
+}
+#videoPartido video{
+    width: 650px;
+    height: 400px;
+    align-items: center;
+    margin: 10PX 10PX;
+}
+#audioPartido{
+    text-align: center;
+}
+#audioPartido audio{
+    align-items: center;
+    margin: 10PX 10PX;
+}
+#videoYoutube{
+    text-align: center;
+}
+#videoYoutube iframe{
+    width: 650px;
+    height: 400px;
+    align-items: center;
+    margin: 10PX 10PX;
+}
+#planes{
+    align-items: center;
+    margin: 10PX 10PX;
+    text-align: center;
+}
+#planes img{
+    width: 1em;
+    height: 1em;
+    margin-right: 15px;
+}
+ol{
+    list-style: none;
+    align-items: center;
+    text-align: center;
+}
+#inicio-link{
+    text-align: right;
+    margin: 10px 10px;
+    padding: 20px;
+}
+footer{
+    background-color: rgb(102, 174, 255);
+    height: 80px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
